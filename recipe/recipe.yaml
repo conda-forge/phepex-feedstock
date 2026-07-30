@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.0"
+  version: "0.2.1"
 
 package:
   name: phepex
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/phepex/phepex-${{ version }}.tar.gz
-  sha256: a326d98fe39d24f1482dc71bd6c0189e3387b7a8d95ea40c53f8fc7eb4b85fa1
+  sha256: dc2c2f5a08c6833f5a30d4be9532868b160704d6a2f0692414f394eb2026be38
 
 build:
   script:
